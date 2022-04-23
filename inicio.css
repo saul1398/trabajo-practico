@@ -234,6 +234,7 @@ ion-icon {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 5px;
+    
 }
 .flex22{
     display: flex;
@@ -245,8 +246,9 @@ ion-icon {
 .ediimagen{
     border: double black ;
     padding: 15px;
-   
+  
 }
+
 .precio{
     color: green;
     display: flex;
@@ -386,7 +388,9 @@ list-style: none;}
 
     .empresalogo img{
         display: block;
-    
+        height: 100px;
+      
+      
     }
     .navegadorprimero{
         background-color: rgba(22, 21, 21, 0.904);
