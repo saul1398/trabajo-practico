@@ -446,6 +446,33 @@ list-style: none;}
     
        justify-content: center;
     }
+    .empresalogo a img{
+     
+
+        animation-name:animacion1;
+        animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   animation-duration: 8s;
+
+    }
+  @keyframes animacion1 {
+      0%{
+        width: 100px;
+      }
+      25%{
+        width: 50px;
+      
+      }
+      50%{
+
+        width: 100px;
+        transform: rotatey(360deg);
+
+      }
+
+      
+  }
+ 
     
     .navegadorsegundo_2{
         display: flex;
