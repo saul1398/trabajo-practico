@@ -435,6 +435,25 @@ list-style: none;}
     
       
     }
+    .navegadorsegundo_1{
+        transition: all 0.5s ease-in-out;
+    }
+    }
+    .navegadorsegundo_1 li:hover{
+        
+        transform:scale(1.1);
+        
+    }
+    .navegadorsegundo_2{
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .navegadorsegundo_2 li:hover{
+        
+        transform:scale(1.1);
+      
+    }
+    
     
     li a{
         color: rgb(255, 250, 250);
@@ -553,7 +572,9 @@ list-style: none;}
     footer{
         grid-area: footer;
     }
+   
     
+
     .aside1{
         background-image: url(imagenes/bicicletas/bronson.jpg);
         height: 70vh;
