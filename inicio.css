@@ -592,7 +592,26 @@ justify-content: center;
     .aside2 div p{
         color: aliceblue;
     font-size: 21px;}
+    .historia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+       
+    }
+      .objetivo{
+        display: flex;
+        flex-direction: column;
       
+        align-items: center;
+        width: 70%;
+        
+      }
+      .padreobjetivo{
+          display: flex;
+          justify-content: center;
+      }
      
     
 
