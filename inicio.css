@@ -248,11 +248,15 @@ ion-icon {
     justify-content: space-around;
    
 }
-.ediimagen{
+ .ediimagen{
+    
+    overflow: hidden;
     
     padding: 15px;
+    border: double black;
    
 }
+
 .precio{
     color: green;
     display: flex;
@@ -308,6 +312,9 @@ justify-content: center;
     color: aliceblue;
 }
 .objetivo{color: aliceblue;}
+.caruselsaul{
+    display: none;
+}
 
 
 
@@ -386,6 +393,9 @@ justify-content: center;
         margin: 0;
         box-sizing: border-box;
         
+    }
+    .main_cascos{
+        background-image: url(imagenes/Logo/fondocascoo.jpg);
     }
    
 
@@ -516,6 +526,7 @@ justify-content: center;
       align-items: center;
     
     }
+   
     .redes1{
      
      display: flex;
@@ -556,6 +567,9 @@ justify-content: center;
     }
     footer{
         grid-area: footer;
+    }
+    footer ul{
+        padding-left: 1px;
     }
     
     .aside1{
@@ -623,12 +637,26 @@ justify-content: center;
       .imagenesequipo{
           margin-top: 10px;
       }
+      .imagenesequipo{
+        display:none;
+    }
+    .carousel{
+      
+        width: 40%;
+    }
+    .caruselsaul{
+        display: flex;
+        justify-content: center;
+    }
      .navegador{
          display: block;
         
      }
      .navbar{
          display: none;
+     }
+     .container{
+         margin-top: 5px;
      }
 
    
