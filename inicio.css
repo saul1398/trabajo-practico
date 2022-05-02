@@ -5,17 +5,21 @@
     
 }
 header{
-    background-color: aliceblue;
+    background-color: rgb(0, 116, 62);
    
     
 }
+.navegador{
+    display: none;
+}
+
 .navegadorprimero{
     background-color: rgba(22, 21, 21, 0.904);
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    
+    display: none;
   
 }
 .empresalogo img{
@@ -29,6 +33,7 @@ header{
     
 }
 .navegadorsegundo{
+    display: none;
     display: flex;
     flex-direction: row;
     border: solid black;
@@ -59,7 +64,9 @@ li a{
 }
 
 
+
 .navegadorsegundo_2{
+    display: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -139,18 +146,18 @@ footer{
     background-image: url(imagenes/Logo/fondoformulario.jpg);
     background-size:cover;
     background-position: center;
-    
-    display: flex;
-    justify-content: center;
+  
     padding: 5px;
 }
+
 .formulario1{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 15px;
   
-  
+
 }
 .logoformu{
     transform: translate(10px, 20px);
@@ -227,7 +234,9 @@ ion-icon {
     margin-left: 1em;
     overflow: hidden;
 }
-
+.container{
+    display: none;
+}
 .flex11{
     display: flex;
     flex-direction: row;
@@ -242,11 +251,23 @@ ion-icon {
     justify-content: space-around;
    
 }
+<<<<<<< HEAD
 .ediimagen{
     
     padding: 15px;
    
 }
+=======
+ .ediimagen{
+    
+    overflow: hidden;
+    
+    padding: 15px;
+    border: double black;
+   
+}
+
+>>>>>>> saul
 .precio{
     color: green;
     display: flex;
@@ -302,6 +323,12 @@ justify-content: center;
     color: aliceblue;
 }
 .objetivo{color: aliceblue;}
+<<<<<<< HEAD
+=======
+.caruselsaul{
+    display: none;
+}
+>>>>>>> saul
 
 
 
@@ -381,6 +408,14 @@ justify-content: center;
         box-sizing: border-box;
         
     }
+<<<<<<< HEAD
+=======
+    .main_cascos{
+        background-image: url(imagenes/Logo/fondocascoo.jpg);
+    }
+   
+
+>>>>>>> saul
     .empresalogo a img{
      
 
@@ -403,14 +438,20 @@ justify-content: center;
           transform: rotatey(360deg);
   
         }
+<<<<<<< HEAD
   
         
+=======
+>>>>>>> saul
       }
     header{
         background-color: aliceblue;
        
     
         
+    }
+    .formulario2{
+        display: none;
     }
     .homeindex{
         display: none;
@@ -479,7 +520,7 @@ justify-content: center;
         width: 50%
     }
 
-    .flex_footer{
+    .flex_footer23{
         color: aliceblue;
         background-color: black;
         flex-wrap: wrap;
@@ -508,6 +549,7 @@ justify-content: center;
       align-items: center;
     
     }
+   
     .redes1{
      
      display: flex;
@@ -528,8 +570,7 @@ justify-content: center;
     .derechos{
         margin-bottom: 30px;
     }
-    .formulario{
-    border: solid black;    }
+    
     .contenedor__padre{
         display: grid;
         grid-template-areas: 
@@ -548,6 +589,9 @@ justify-content: center;
     }
     footer{
         grid-area: footer;
+    }
+    footer ul{
+        padding-left: 1px;
     }
     
     .aside1{
@@ -612,6 +656,71 @@ justify-content: center;
           display: flex;
           justify-content: center;
       }
+<<<<<<< HEAD
+=======
+      .imagenesequipo{
+          margin-top: 10px;
+      }
+      .imagenesequipo{
+        display:none;
+    }
+    .carousel{
+      
+        width: 40%;
+    }
+    .caruselsaul{
+        display: flex;
+        justify-content: center;
+    }
+     .navegador{
+         display: block;
+        
+     }
+     .navbar{
+         display: none;
+     }
+     .container{
+         margin-top: 5px;
+     }
+     .container{
+        display: block;
+    }
+    .mainformulario{
+        background-image: url(imagenes/Logo/fondoformulario.jpg);
+        background-size:cover;
+        background-position: center;
+       
+        
+        
+        
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+       
+       
+    }
+    .formulario1{
+        border: double black;
+    }
+    
+ 
+    .logoformu{
+        transform: translate(10px, 20px);
+      display: none
+        
+    }
+    .logoformu1{
+        display: block;
+    }
+    .comentario{
+        height: 200px;
+    }
+    .col p{
+        color: aqua;
+    }
+   
+>>>>>>> saul
      
     
 
