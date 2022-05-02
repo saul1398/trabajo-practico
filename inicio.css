@@ -251,13 +251,6 @@ ion-icon {
     justify-content: space-around;
    
 }
-<<<<<<< HEAD
-.ediimagen{
-    
-    padding: 15px;
-   
-}
-=======
  .ediimagen{
     
     overflow: hidden;
@@ -267,7 +260,6 @@ ion-icon {
    
 }
 
->>>>>>> saul
 .precio{
     color: green;
     display: flex;
@@ -323,12 +315,9 @@ justify-content: center;
     color: aliceblue;
 }
 .objetivo{color: aliceblue;}
-<<<<<<< HEAD
-=======
 .caruselsaul{
     display: none;
 }
->>>>>>> saul
 
 
 
@@ -408,14 +397,11 @@ justify-content: center;
         box-sizing: border-box;
         
     }
-<<<<<<< HEAD
-=======
     .main_cascos{
         background-image: url(imagenes/Logo/fondocascoo.jpg);
     }
    
 
->>>>>>> saul
     .empresalogo a img{
      
 
@@ -438,11 +424,6 @@ justify-content: center;
           transform: rotatey(360deg);
   
         }
-<<<<<<< HEAD
-  
-        
-=======
->>>>>>> saul
       }
     header{
         background-color: aliceblue;
@@ -656,8 +637,6 @@ justify-content: center;
           display: flex;
           justify-content: center;
       }
-<<<<<<< HEAD
-=======
       .imagenesequipo{
           margin-top: 10px;
       }
@@ -720,7 +699,6 @@ justify-content: center;
         color: aqua;
     }
    
->>>>>>> saul
      
     
 
